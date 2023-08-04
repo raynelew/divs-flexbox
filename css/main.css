@@ -105,9 +105,24 @@ body {
     font-family: 'Cutive Mono', monospace;
     padding: 2em;
     font-size: 1.25em;
-    height: 100%;
+    height: 100%; 
+    background-color: #a179a5;
+    text-align: justify;
+
 }
 
+header {
+    background-color: #a179a5;
+    color: #fbfafc;
+    padding: 15px;
+    width: 100%;
+}
+h1 {
+    font-size: 2em;
+}
+.about { 
+    font-size: 1.2em;
+}
 .wrapper {
     /*add display:flex and set justify-content to space-between*/
     font-weight: 300;
@@ -123,16 +138,14 @@ body {
     color: #fbfafc;
     line-height: 1.2em;
     font-size: .9em;
-    background-color: #a179a5;
     height: 275px;
     display: flex;
     width: 30%;
     justify-content: center;
     align-items: center;
-    margin: 15px;
     padding: 15px;
-    text-align: justify;
-    border-radius: 20px;
+    
+
 }
 
 
